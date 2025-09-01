@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Quiz & Random Joke</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Responsive Quiz & Random Joke</h1>
+  </header>
+
+  <div class="container">
+    <h2>Quick Quiz</h2>
+    <div id="quiz">
+      <div class="question" id="question">Loading question...</div>
+      <div class="options" id="options"></div>
+      <button id="nextBtn">Next Question</button>
+    </div>
+    <div id="joke-section">
+      <h2>Get a Random Joke</h2>
+      <button onclick="getJoke()">Tell Me a Joke</button>
+      <p id="joke"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
